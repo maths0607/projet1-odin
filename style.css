@@ -1,10 +1,11 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
 /* color and font */
 
-.header, .footer {
+.header,.header-container, .footer {
     background: #1F2937;
 }
 .header-main h1 {
@@ -25,6 +26,8 @@
     background-color: #3882F6;
     color: #F9FAF8;
     font-weight: 300;
+    width:100px;
+    cursor: pointer;
 }
 .part3{
     background-color: #3882F6;
@@ -39,4 +42,157 @@
     font-size: 36px ;
     font-style:italic;
     color:  #1F2937;
+}
+.header-top {
+    color: #E5E7EB;
+
+}
+/* travail sur les différentes partie */
+
+    /* header-top */
+  
+    .header{
+        width: 70%;
+        margin: auto;
+    }
+.header-top .logo{
+    font-size:20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.header-top ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-right: 0;
+}
+.header-top ul{
+    margin: 0;
+}
+
+
+.header-top a{
+    text-decoration: none;
+    color: #E5E7EB;
+    opacity: 0.7;
+
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    padding-top:10px;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+
+.header-main{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 75px;
+    gap :30px;
+    
+
+}
+.header-main .title, .header .header-main-image{
+ width: 50%;
+ flex-shrink: 0;
+}
+.header-main .title *{
+    padding-bottom: 10px;
+}
+ .sign-up{
+    border: none;
+    border-radius: 7px;
+    padding: 5px;
+
+}
+.header-main .header-main-image{
+    color: #E5E7EB;
+    
+    background: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+/* part1 */
+.part1{
+    padding-top: 20px;
+    padding-bottom: 75px;
+    text-align: center;
+    
+}
+
+.illustrations{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top:25px ;
+    width: 80%;
+    margin: auto;
+}
+
+
+.illustration .image {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border:#3882F6 3px solid;
+    border-radius: 7px;
+    display: flex;
+    margin-bottom: 5px;
+
+}
+.illustration p{
+    width: 100px ;
+}
+/* part2 */
+.part2 .contenu-part2{
+    text-align: center;
+    width:75%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+   
+}
+.part2 .auteur{
+    font-weight: 900;
+    text-align: right;
+    padding-top: 20px;
+    font-style: normal;
+    font-size: smaller;
+
+}
+.part3 {
+    width: 80%;
+    margin: 50px auto;
+    color: #F9FAF8;
+    padding:15px  60px;
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    align-items: center;
+    border-radius: 10px;
+}
+.part3 h1{
+    font-size: 20px;
+    font-weight: 700;
+}
+.part3 .sign-up{
+    border: #F9FAF8 solid 1px;
+    height:32px;
+
+}
+
+/* footer */
+.footer{
+    text-align: center;
+    
+    color: #F9FAF8;
+    height: 50px;
+    padding: 20px;
+    
+
+}
+.footer a{
+    color: wheat;
 }
